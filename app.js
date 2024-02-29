@@ -18,7 +18,7 @@ multuplyBtn.onclick = () => {
     mathAct = '*'
 }
 divisionBtn.onclick = () => {
-    mathAct = ':'
+    mathAct = '/'
 }
 
 function computeNumbersWithAction(inp1, inp2, action) {
@@ -26,8 +26,12 @@ function computeNumbersWithAction(inp1, inp2, action) {
     const val2 = Number(inp2.value)
     if (action == '+') {
         return val1 + val2
-    } else if (action == '+') {
+    } else if (action == '-') {
         return val1 - val2
+    } else if (action == '*') {
+        return val1 * val2
+    } else if (action == '/') {
+        return val1 / val2
     }
     // return action == '+' ? val1 + val2 : val1 - val2
 }
