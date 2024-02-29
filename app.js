@@ -1,30 +1,3 @@
-// let num = 42
-// let firstName = 'Albert'
-// const isProgrammer = true
-
-// Can do
-// let $ = 'test'
-// let $num = 42
-// let num$ = 42
-// let _ = 49
-// let _num = 12
-// let num_ = 12
-// let first_name = 'Elena' // bad
-// let myNum = 34 // good
-// let num42 = 10
-
-// Restricted
-// let 42num = '11'
-// let my-num = 1
-// let let = 'let'
-// let true = true
-
-// alert(firstName)
-// console.log('Test:', isProgrammer, num);
-
-// const fullName = firstName + ' Kondakov'
-// console.log(fullName);
-
 const resultElement = document.getElementById('result')
 const input1 = document.getElementById('input1')
 const input2 = document.getElementById('input2')
